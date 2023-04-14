@@ -1,8 +1,9 @@
+import GlobalStyle from "./style/global"
 
 
 const App = () => {
   return (
-    <h1></h1>
+    <GlobalStyle/>
   )
 }
 
