@@ -1,4 +1,4 @@
-import { HtmlHTMLAttributes, InputHTMLAttributes, ButtonHTMLAttributes } from "react"
+import { HtmlHTMLAttributes, InputHTMLAttributes, ButtonHTMLAttributes, ImgHTMLAttributes} from "react"
 
 
 export interface ITextProps extends HtmlHTMLAttributes<HTMLParagraphElement> {
@@ -26,4 +26,11 @@ export interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     border_radius?: string
     background_color?: string
     padding?: string
+    position?: string
+    top?: string
+    left?: string
+}
+export interface IImageProps extends ImgHTMLAttributes<HTMLImageElement> {
+    width: number
+    hieght: number
 }

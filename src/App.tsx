@@ -5,6 +5,7 @@ import caretUp from "./assets/CaretUp.png"
 import chat from "./assets/ChatDots.png"
 import Text from "./components/Text"
 import Bundle from "./components/Bundle"
+import Categories from "./components/Categories"
 const App = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const App = () => {
       </Button>
       <Header/>
       <Bundle/>
+      <Categories/>
       <GlobalStyle/>
     </>
   )

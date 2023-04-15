@@ -9,5 +9,7 @@ export const ButtonStyle = styled.button`
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
-
+    position: ${({position}:IButtonProps) => position};
+    top: ${({top}:IButtonProps) => top};
+    left: ${({left}) => left}
 `
