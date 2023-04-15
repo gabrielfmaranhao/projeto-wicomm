@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import styled,{ createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     *{
@@ -55,5 +55,39 @@ html, body, #root{
     width: 100%;
     height: 100%;
 }
+#arrow_up{
+    position: fixed;
+    padding: 11px;
+    top: 559px;
+    left: 1184px;
+    img{
+        width:32px;
+        height:32px;
+    }
+}
+#talk_to_me{
+    position: fixed;
+    top:625px;
+    left:1121px;
+    padding: 10px;
+}
 `
 export default GlobalStyle
+export const ListButtonBundle = styled.ol`
+    position: absolute;
+    left: 570px;
+    top: 614px;
+    display: flex;
+    gap: 10px;
+`
+export const ButtonBundle = styled.button`
+    background-color: var(--gray-2);
+    border: none;
+    width: 40px;
+    height: 2px;
+    transition: 0.250s;
+    :hover{
+        height: 6px;
+        background-color: var(--orange-1);
+    }
+`

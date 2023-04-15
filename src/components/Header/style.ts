@@ -42,6 +42,7 @@ export const Search = styled.section`
     background-color: var(--dark-1);
     border: 1px solid var(--dark-3);
     border-radius: 4px;
+    box-sizing: border-box;
     /* outline: auto; */
     img{
         width:24px;
