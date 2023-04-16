@@ -9,6 +9,5 @@ const TextStyle = styled.p`
     font-family: ${({font_family}:ITextProps) => font_family};
     line-height: ${({line_height}) => `${line_height}px`};
     text-decoration: none;
-
 `
 export default TextStyle

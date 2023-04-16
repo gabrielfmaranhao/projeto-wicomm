@@ -9,6 +9,7 @@ import Categories from "./components/Categories"
 import Releases from "./components/Releases"
 import SectionInfluencers from "./components/SectionInfluencers"
 import SectionPromotions from "./components/SectionPromotions"
+import SectionBlog from "./components/SectionBlog"
 const App = () => {
   return (
     <>
@@ -25,6 +26,7 @@ const App = () => {
       <Releases/>
       <SectionInfluencers/>
       <SectionPromotions/>
+      <SectionBlog/>
       <GlobalStyle/>
     </>
   )
