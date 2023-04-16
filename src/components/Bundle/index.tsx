@@ -13,7 +13,7 @@ const Bundle = () =>{
                     <Text element="p" font_color="black-1" font_family="Barlow" font_style="normal" font_weight={700} font_size={16} line_height={20} description="CONFIRA" id="check_out"/>
                 </Button>
             </Main>
-            <ListButtonBundle>
+            <ListButtonBundle position="relative" top="500px">
                 <li><ButtonBundle/></li>
                 <li><ButtonBundle/></li>
                 <li><ButtonBundle/></li>

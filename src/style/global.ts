@@ -1,5 +1,5 @@
 import styled,{ createGlobalStyle } from "styled-components";
-
+import { IListButtonBundle } from "../interfaces";
 const GlobalStyle = createGlobalStyle`
     *{
         --white: #FFFFFF;
@@ -55,6 +55,9 @@ html, body, #root{
     width: 100%;
     height: 100%;
 }
+button{
+    cursor: pointer;
+}
 #arrow_up{
     position: fixed;
     padding: 11px;
@@ -73,10 +76,12 @@ html, body, #root{
 }
 `
 export default GlobalStyle
+
 export const ListButtonBundle = styled.ol`
-    position: absolute;
-    left: 570px;
-    top: 614px;
+    position: ${({position}:IListButtonBundle) => position};
+    left: ${({left}:IListButtonBundle) => left};
+    top: ${({top}:IListButtonBundle) => top};
+    justify-content: center;
     display: flex;
     gap: 10px;
 `

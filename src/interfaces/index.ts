@@ -33,4 +33,11 @@ export interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 export interface IImageProps extends ImgHTMLAttributes<HTMLImageElement> {
     width: number
     hieght: number
+    mix_blend_mode?: string
+    opacity?:number
+}
+export interface IListButtonBundle {
+    left?: string
+    top?: string
+    position?: string
 }

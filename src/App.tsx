@@ -7,6 +7,7 @@ import Text from "./components/Text"
 import Bundle from "./components/Bundle"
 import Categories from "./components/Categories"
 import Releases from "./components/Releases"
+import SectionInfluencers from "./components/SectionInfluencers"
 const App = () => {
   return (
     <>
@@ -20,6 +21,8 @@ const App = () => {
       <Header/>
       <Bundle/>
       <Categories/>
+      <Releases/>
+      <SectionInfluencers/>
       <Releases/>
       <GlobalStyle/>
     </>
