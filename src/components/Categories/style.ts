@@ -3,13 +3,12 @@ import styled from "styled-components";
 export const Container = styled.section`
     width: 100%;
     /* display: flex; */
-
 `
 export const ListShowCategories = styled.ul`
     display: flex;
-    gap: 20px;
-    padding: 0 70px;
+    gap: 15px;
     margin-top: 20px;
+    padding: 0 70px;
     li {
         width: 178px;
         height: 210px;

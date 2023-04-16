@@ -6,6 +6,7 @@ import chat from "./assets/ChatDots.png"
 import Text from "./components/Text"
 import Bundle from "./components/Bundle"
 import Categories from "./components/Categories"
+import Releases from "./components/Releases"
 const App = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const App = () => {
       <Header/>
       <Bundle/>
       <Categories/>
+      <Releases/>
       <GlobalStyle/>
     </>
   )
