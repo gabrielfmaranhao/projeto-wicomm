@@ -1,4 +1,4 @@
-import { HtmlHTMLAttributes, InputHTMLAttributes, ButtonHTMLAttributes, ImgHTMLAttributes} from "react"
+import { HtmlHTMLAttributes, InputHTMLAttributes, ButtonHTMLAttributes, ImgHTMLAttributes, LiHTMLAttributes} from "react"
 
 
 export interface ITextProps extends HtmlHTMLAttributes<HTMLParagraphElement> {
@@ -40,4 +40,8 @@ export interface IListButtonBundle {
     left?: string
     top?: string
     position?: string
+}
+export interface ICardObjectivesProps extends LiHTMLAttributes<HTMLLIElement> {
+    image: string
+    text: string
 }
