@@ -11,6 +11,7 @@ import SectionInfluencers from "./components/SectionInfluencers"
 import SectionPromotions from "./components/SectionPromotions"
 import SectionBlog from "./components/SectionBlog"
 import SectionObjectives from "./components/SectionObjectives"
+import About from "./pages/home/About"
 const App = () => {
   return (
     <>
@@ -29,6 +30,7 @@ const App = () => {
       <SectionPromotions/>
       <SectionBlog/>
       <SectionObjectives/>
+      <About/>
       <GlobalStyle/>
     </>
   )
