@@ -29,10 +29,12 @@ export interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     position?: string
     top?: string
     left?: string
+    whidth?: string
+    heigth?: string
 }
 export interface IImageProps extends ImgHTMLAttributes<HTMLImageElement> {
-    width: number
-    hieght: number
+    width?: number
+    hieght?: number
     mix_blend_mode?: string
     opacity?:number
 }

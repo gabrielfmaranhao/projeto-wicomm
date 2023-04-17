@@ -11,5 +11,7 @@ export const ButtonStyle = styled.button`
     box-sizing: border-box;
     position: ${({position}:IButtonProps) => position};
     top: ${({top}:IButtonProps) => top};
-    left: ${({left}) => left}
+    left: ${({left}:IButtonProps) => left};
+    width: ${({whidth}:IButtonProps) => whidth};
+    height: ${({heigth}:IButtonProps) => heigth};
 `

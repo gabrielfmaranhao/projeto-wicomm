@@ -10,6 +10,7 @@ import SectionBlog from "./SectionBlog"
 import About from "./About"
 import Button from "../../components/Button"
 import Text from "../../components/Text"
+import Footer from "./Footer"
 const Home = () => {
     return(
         <>
@@ -30,6 +31,7 @@ const Home = () => {
             <SectionBlog/>
             <SectionObjectives/>
             <About/>
+            <Footer/>
         </>
     )
 }

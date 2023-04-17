@@ -38,8 +38,5 @@ export const SectionAbout = styled.section`
         position: absolute;
         top: 90px;
     }
-    img {
-        opacity: 0.1;
-    }
 `
 

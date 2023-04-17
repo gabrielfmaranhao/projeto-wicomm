@@ -28,7 +28,7 @@ const About = () => {
             </Card>
         </ListCard>
         <SectionAbout>
-            <Image src="src/assets/Group 2.png" width={160} hieght={160}/>
+            <Image src="src/assets/Group 2.png" width={160} hieght={160} opacity={0.1}/>
             <Text element="h3" font_family="Roboto Condensed" font_weight={700} font_style="italic" font_size={32} line_height={38} description="SOBRE A BLACK SKULL" font_color="dark-1"/>
             <Text element="p" font_family="Barlow" font_weight={400} font_size={16} font_style="normal" line_height={20} font_color="black-1" description="A Black Skull USA é uma marca de suplementos alimentares com foco em atletas de alta performance. Nossa sede no Brasil está alocada em Embu das Artes – SP, com mais de 12.000 m² de área construída, com alta capacidade produtiva. Nossos produtos trabalham com as melhores matérias-primas do mercado e tem como principal característica maior concentração de insumos, que proporcionam níveis de pureza mais altos e por consequência otimizam a qualidade de nossos produtos."/>
         </SectionAbout>
