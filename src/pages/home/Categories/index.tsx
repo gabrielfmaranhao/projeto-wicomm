@@ -1,6 +1,6 @@
-import Button from "../Button"
-import Image from "../Image"
-import Text from "../Text"
+import Text from "../../../components/Text"
+import Image from "../../../components/Image"
+import Button from "../../../components/Button"
 import { Container, ListShowCategories} from "./style"
 const Categories = () => {
     return(

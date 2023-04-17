@@ -1,6 +1,6 @@
-import ShowObjectives from "../ShowObjectives"
+import ShowObjectives from "../../../components/ShowObjectives"
+import Text from "../../../components/Text"
 import { Container } from "./style"
-import Text from "../Text"
 const SectionObjectives = () => {
     return(
 

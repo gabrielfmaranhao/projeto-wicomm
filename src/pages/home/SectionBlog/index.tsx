@@ -1,7 +1,7 @@
 import { Container, Aside, Main, Card } from "./style"
-import Text from "../Text"
-import Button from "../Button"
-import Image from "../Image"
+import Text from "../../../components/Text"
+import Button from "../../../components/Button"
+import Image from "../../../components/Image"
 const SectionBlog = () => {
     return(
         <Container>

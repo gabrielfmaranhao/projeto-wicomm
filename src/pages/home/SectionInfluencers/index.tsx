@@ -1,7 +1,7 @@
 import { Container, Main } from "./style"
-import Text from "../Text"
-import Image from "../Image"
-import Button from "../Button"
+import Text from "../../../components/Text"
+import Button from "../../../components/Button"
+import Image from "../../../components/Image"
 const SectionInfluencers = () => {
     return(
         <Container>

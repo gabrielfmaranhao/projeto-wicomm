@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
     width: 100%;
+    position: fixed;
 `
 export const Details = styled.div`
     display: flex;

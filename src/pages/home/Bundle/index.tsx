@@ -1,7 +1,7 @@
 import { Container,Main} from "./style"
-import { ListButtonBundle, ButtonBundle } from "../../style/global"
-import Text from "../Text"
-import Button from "../Button"
+import { ListButtonBundle, ButtonBundle } from "../../../style/global"
+import Text from "../../../components/Text"
+import Button from "../../../components/Button"
 const Bundle = () =>{
     return(
         <Container>
