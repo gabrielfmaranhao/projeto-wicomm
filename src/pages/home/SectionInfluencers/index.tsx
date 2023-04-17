@@ -4,7 +4,7 @@ import Button from "../../../components/Button"
 import Image from "../../../components/Image"
 const SectionInfluencers = () => {
     return(
-        <Container>
+        <Container id="Atletas">
             <Image src="src/assets/Frame 17.png" width={483} hieght={314} mix_blend_mode="overlay" opacity={0.6}/>
             <Main>
                 <div>

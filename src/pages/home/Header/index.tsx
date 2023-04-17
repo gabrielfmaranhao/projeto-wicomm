@@ -1,7 +1,8 @@
 import { Container, Details, Nav, Search, Infomations } from "./style"
 import Text from "../../../components/Text"
 import Input from "../../../components/Input"
-
+import {BiUserCircle,BiStar} from "react-icons/bi"
+import { IconBase } from "react-icons"
 const Header = () => {
     return(
         <Container>
@@ -40,8 +41,8 @@ const Header = () => {
                     <img src="src/assets/MagnifyingGlass.png" alt="MagnifyingGlass" />
                 </Search>
                 <Infomations>
-                    <img src="src/assets/User.png" alt="User icone" />
-                    <img src="src/assets/Whishlist.png" alt="Whish icone" />
+                    <BiUserCircle size={24} color="var(--gray-1)"/>
+                    <BiStar size={24} color="var(--gray-1)"/>
                     <img src="src/assets/ShoppingCart.png" alt="Cart icone" />
                 </Infomations>
             </Nav>

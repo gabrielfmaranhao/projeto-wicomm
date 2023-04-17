@@ -12,6 +12,10 @@ export const ListShowCategories = styled.ul`
     li {
         width: 178px;
         height: 210px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
         figure {
             width: 178px;
             height: 178px;
@@ -21,9 +25,20 @@ export const ListShowCategories = styled.ul`
             justify-content: center;
             align-items: center;
         }
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        img {
+            position: absolute;
+        }
+    }
+    li:hover{
+        figure{
+            background-color: var(--orange-1);
+        }
+        img{
+            animation: 0.5s liCategorie both;
+        }
+    }
+    @keyframes liCategorie{
+        0% {scale:1}
+        100% {scale:1.5}
     }
 `

@@ -14,4 +14,8 @@ export const ButtonStyle = styled.button`
     left: ${({left}:IButtonProps) => left};
     width: ${({whidth}:IButtonProps) => whidth};
     height: ${({heigth}:IButtonProps) => heigth};
+    :hover{
+        background-color: ${({background_color_hover}:IButtonProps) => background_color_hover};
+        border-color: ${({border_color_hover}:IButtonProps) => border_color_hover};
+    }
 `

@@ -25,12 +25,14 @@ export interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     border?: string
     border_radius?: string
     background_color?: string
+    background_color_hover?: string
     padding?: string
     position?: string
     top?: string
     left?: string
     whidth?: string
     heigth?: string
+    border_color_hover?: string
 }
 export interface IImageProps extends ImgHTMLAttributes<HTMLImageElement> {
     width?: number

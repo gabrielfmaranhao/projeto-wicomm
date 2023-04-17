@@ -9,6 +9,7 @@ export const InputStyle = styled.input`
     border-radius: ${({border_radius}:IInputProps) => `${border_radius}px`};
     padding: ${({padding}:IInputProps) => padding};
     outline: none;
+    transition: 0.2 background-color;
     ::placeholder{
         color: var(--gray-1);
         font-family: 'Barlow';
@@ -17,4 +18,7 @@ export const InputStyle = styled.input`
         font-size: 12px;
         line-height: 14px;
     }
+    /* :hover{
+        background-color: red;
+    } */
 `
