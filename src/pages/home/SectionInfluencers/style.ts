@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.section`
     width: 100%;
     background-color: var(--black-1);
-    background-image: url('src/assets/unsplash_4aVUigDCLV8.png');
+    background-image: url('/assets/unsplash_4aVUigDCLV8.png');
     height: 461px;
     mix-blend-mode: hard-light;
     display: flex;

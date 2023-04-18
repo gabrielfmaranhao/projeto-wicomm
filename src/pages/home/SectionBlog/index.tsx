@@ -17,7 +17,7 @@ const SectionBlog = () => {
             <Main>
                 <ul>
                     <Card>
-                        <Image src="src/assets/unsplash_WvDYdXDzkhs.png" alt="atleta levantando peso" width={374} hieght={200}/>
+                        <Image src="/assets/unsplash_WvDYdXDzkhs.png" alt="atleta levantando peso" width={374} hieght={200}/>
                         <main>
                             <Text element="span" font_family="Barlow" font_color="gray-2" font_size={14} font_style="normal" font_weight={400} line_height={17} description="03.05.21"/>
                             <Text element="p" font_family="Barlow" font_color="white" font_size={18} font_style="normal" font_weight={700} line_height={22} description="LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT"/>
@@ -27,7 +27,7 @@ const SectionBlog = () => {
                         </main>
                     </Card>
                     <Card>
-                        <Image src="src/assets/unsplash_0ShTs8iPY28.png" alt="atleta levantando peso" width={374} hieght={200}/>
+                        <Image src="/assets/unsplash_0ShTs8iPY28.png" alt="atleta levantando peso" width={374} hieght={200}/>
                         <main>
                             <Text element="span" font_family="Barlow" font_color="gray-2" font_size={14} font_style="normal" font_weight={400} line_height={17} description="03.05.21"/>
                             <Text element="p" font_family="Barlow" font_color="white" font_size={18} font_style="normal" font_weight={700} line_height={22} description="LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT"/>
@@ -37,7 +37,7 @@ const SectionBlog = () => {
                         </main>
                     </Card>
                     <Card>
-                        <Image src="src/assets/unsplash_0Wra5YYVQJE.png" alt="atleta levantando peso" width={374} hieght={200}/>
+                        <Image src="/assets/unsplash_0Wra5YYVQJE.png" alt="atleta levantando peso" width={374} hieght={200}/>
                         <main>
                             <Text element="span" font_family="Barlow" font_color="gray-2" font_size={14} font_style="normal" font_weight={400} line_height={17} description="03.05.21"/>
                             <Text element="p" font_family="Barlow" font_color="white" font_size={18} font_style="normal" font_weight={700} line_height={22} description="LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING ELIT"/>
@@ -49,10 +49,10 @@ const SectionBlog = () => {
                 </ul>
             </Main>
             <Button background_color="gray-2" border_radius="4px" border="none" padding="3px" position="absolute" top="50%" left="40px">
-                <Image src="src/assets/ArrowLight.png" alt="arrow light" width={24} hieght={24}/>
+                <Image src="/assets/ArrowLight.png" alt="arrow light" width={24} hieght={24}/>
             </Button>
             <Button background_color="gray-2" border_radius="4px" border="none" padding="3px" position="absolute" top="50%" left="1195px">
-                <Image src="src/assets/ArrowRight.png" alt="arrow light" width={24} hieght={24}/>
+                <Image src="/assets/ArrowRight.png" alt="arrow light" width={24} hieght={24}/>
             </Button>
         </Container>
     )

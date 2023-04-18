@@ -15,10 +15,10 @@ const Home = () => {
     return(
         <>
             <Button background_color="dark-3" border="1px solid var(--gray-1)" border_radius={"4px"} id="arrow_up" background_color_hover="var(--orange-1)"  border_color_hover="var(--black-1)">
-                <img src="src/assets/CaretUp.png" alt="Up arrow"/>
+                <img src="/assets/CaretUp.png" alt="Up arrow"/>
             </Button>
             <Button background_color="orange-1" border="1px solid var(--dark-3)" border_radius={"6px 6px 0px 6px"} id="talk_to_me" background_color_hover="var(--orange-2)">
-                <img src="src/assets/ChatDots.png" alt="chat" />
+                <img src="/assets/ChatDots.png" alt="chat" />
                 <Text element="p" description="Fale Conosco" font_family="Barlow" font_style="normal" font_size={14} line_height={20} font_weight={700} font_color="black-1"/>
             </Button>
             <Header/>

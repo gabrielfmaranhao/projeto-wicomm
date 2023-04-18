@@ -9,7 +9,7 @@ export interface ITextProps extends HtmlHTMLAttributes<HTMLParagraphElement> {
     font_size?: number
     line_height?: number
     description?: string
-    element: string
+    element?: "p" | "h1" | "h2" | "h3"| "h4"| "span"| "label" | "strong" | "a"
     href?: string
 }
 
@@ -46,6 +46,6 @@ export interface IListButtonBundle {
     position?: string
 }
 export interface ICardObjectivesProps extends LiHTMLAttributes<HTMLLIElement> {
-    image: string
-    text: string
+    image?: string
+    objetives?: string
 }

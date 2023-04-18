@@ -9,15 +9,15 @@ const Footer = () => {
             <Main>
                 <Informations>
                     <section className="social">
-                        <Image src="src/assets/black-skull.png" width={213.37} height={40.83}/>
+                        <Image src="/assets/black-skull.png" width={213.37} height={40.83}/>
                         <div className="social_div">
                             <Text element="h4" font_family="Barlow" font_style="normal" font_weight={400} font_size={14} line_height={17} font_color="white" description="Nos siga:"/>
                             <div className="icons_social">
-                                <Image src="src/assets/facebook.png" width={24} height={24}/>
-                                <Image width={24} height={24} src="src/assets/instagram.png"/>
-                                <Image width={24} height={24} src="src/assets/youtube.png"/>
-                                <Image width={24} height={24} src="src/assets/twitter.png"/>
-                                <Image width={24} height={24} src="src/assets/tiktok.png"/>
+                                <Image src="/assets/facebook.png" width={24} height={24}/>
+                                <Image width={24} height={24} src="/assets/instagram.png"/>
+                                <Image width={24} height={24} src="/assets/youtube.png"/>
+                                <Image width={24} height={24} src="/assets/twitter.png"/>
+                                <Image width={24} height={24} src="/assets/tiktok.png"/>
                             </div>
                         </div>
                     </section>
@@ -50,13 +50,13 @@ Profs. de Educação Física" className="text"/>
                         </Section>
                         <Section>
                             <Text element="h3" font_family="Barlow" font_style="normal" font_weight={700} font_size={16} line_height={19} font_color="white" description="FORMAS DE PAGAMENTO"/>
-                            <Image src="src/assets/Group 159.png"/>
+                            <Image src="/assets/Group 159.png"/>
                         </Section>
                         <Section>
                             <Text element="h3" font_family="Barlow" font_style="normal" font_weight={700} font_size={16} line_height={19} font_color="white" description="SEGURANÇA"/>
                             <div>
-                                <Image src="src/assets/image 8.png"/>
-                                <Image src="src/assets/image 6.png"/>
+                                <Image src="/assets/image 8.png"/>
+                                <Image src="/assets/image 6.png"/>
                             </div>
                         </Section>
                     </section>
@@ -79,8 +79,8 @@ Profs. de Educação Física" className="text"/>
             <Details>
                 <Text element="h4" font_color="white" font_family="Barlow" font_size={16} font_style="normal" font_weight={400} line_height={19} description="Black Skull 2022. Todos os direitos reservados."/>
                 <div>
-                    <Image src="src/assets/Logo_Wicomm_WhiteBlue 1.png"/>
-                    <Image src="src/assets/VTEX_pink_RGB.png"/>
+                    <Image src="/assets/Logo_Wicomm_WhiteBlue 1.png"/>
+                    <Image src="/assets/VTEX_pink_RGB.png"/>
                 </div>
             </Details>
         </Container>

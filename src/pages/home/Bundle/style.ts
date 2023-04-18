@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-    background-image: url('src/assets/back.png');
+    background-image: url('/assets/back.png');
     width: 100%;
     height: 548px;
 `
