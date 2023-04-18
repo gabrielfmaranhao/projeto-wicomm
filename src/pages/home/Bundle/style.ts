@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.section`
     background-image: url('/assets/back.png');
+    background-size: 100%;
     width: 100%;
     height: 548px;
 `

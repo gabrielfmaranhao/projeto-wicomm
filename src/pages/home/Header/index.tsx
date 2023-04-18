@@ -2,6 +2,7 @@ import { Container, Details, Nav, Search, Infomations } from "./style"
 import Text from "../../../components/Text"
 import Input from "../../../components/Input"
 import {BiUserCircle,BiStar} from "react-icons/bi"
+import {HiOutlineShoppingCart} from "react-icons/hi"
 const Header = () => {
     return(
         <Container>
@@ -42,7 +43,7 @@ const Header = () => {
                 <Infomations>
                     <BiUserCircle size={24} color="var(--gray-1)"/>
                     <BiStar size={24} color="var(--gray-1)"/>
-                    <img src="/assets/ShoppingCart.png" alt="Cart icone" />
+                    <HiOutlineShoppingCart size={24} color="var(--gray-1)"/>
                 </Infomations>
             </Nav>
         </Container>
