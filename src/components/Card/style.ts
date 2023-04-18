@@ -13,13 +13,12 @@ export const Container = styled.li`
     position: relative;
     :hover{
         #hover{
-            opacity: 1;
             animation: 0.5s hoverComponent both;
         }
     }
     @keyframes hoverComponent {
-        0% {height:0%}
-        100% {height:70%}
+        0% {opacity:0;transform: translateY(10px)}
+        100% {opacity:1;transform: translateY(0px)}
     }
 `
 export const Main = styled.main`
